@@ -1,0 +1,172 @@
+[
+    {
+      "code": 71196,
+      "course": "caal",
+      "teacher": "faisal iradat",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 0,
+      "labDay": 0,
+      "labTime": 1
+    },
+    {
+      "code": 75903,
+      "course": "caal",
+      "teacher": "zain uddin",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 1,
+      "labDay": 0,
+      "labTime": 2
+    },
+    {
+      "code": 75920,
+      "course": "caal",
+      "teacher": "salman zafar",
+      "program": "bscs",
+      "lecDay": 1,
+      "lecTime": 1,
+      "labDay": 1,
+      "labTime": 2
+    },
+    {
+      "code": 95912,
+      "course": "caal",
+      "teacher": "salman zafar",
+      "program": "bscs",
+      "lecDay": 1,
+      "lecTime": 4,
+      "labDay": 2,
+      "labTime": 4
+    },
+    {
+      "code": 96056,
+      "course": "ist",
+      "teacher": "wahab suri",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 0,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 71190,
+      "course": "ist",
+      "teacher": "moiz hasan",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 1,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 71187,
+      "course": "ist",
+      "teacher": "amana raquib",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 1,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 75904,
+      "course": "ccn",
+      "teacher": "waseem arain",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 2,
+      "labDay": 0,
+      "labTime": 4
+    },
+    {
+      "code": 75912,
+      "course": "ccn",
+      "teacher": "asma tauqir",
+      "program": "bscs",
+      "lecDay": 1,
+      "lecTime": 0,
+      "labDay": 1,
+      "labTime": 1
+    },
+    {
+      "code": 75916,
+      "course": "ccn",
+      "teacher": "tasbiha",
+      "program": "bscs",
+      "lecDay": 1,
+      "lecTime": 1,
+      "labDay": 1,
+      "labTime": 2
+    },
+    {
+      "code": 75913,
+      "course": "ai",
+      "teacher": "ali raza",
+      "program": "bscs",
+      "lecDay": 1,
+      "lecTime": 0,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 75921,
+      "course": "ai",
+      "teacher": "sumera",
+      "program": "bscs",
+      "lecDay": 1,
+      "lecTime": 1,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 75911,
+      "course": "ai",
+      "teacher": "ali raza",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 2,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 71194,
+      "course": "ai",
+      "teacher": "sumera",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 4,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 71207,
+      "course": "toa",
+      "teacher": "shahid hussain",
+      "program": "bscs",
+      "lecDay": 0,
+      "lecTime": 5,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 96062,
+      "course": "toa",
+      "teacher": "imran rauf",
+      "program": "bscs",
+      "lecDay": 2,
+      "lecTime": 4,
+      "labDay": -1,
+      "labTime": -1
+    },
+    {
+      "code": 71206,
+      "course": "toa",
+      "teacher": "imran rauf",
+      "program": "bscs",
+      "lecDay": 2,
+      "lecTime": 5,
+      "labDay": -1,
+      "labTime": -1
+    }
+  ]
