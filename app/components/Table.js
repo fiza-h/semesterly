@@ -31,17 +31,22 @@ const Table = ({ schedule }) => {
                             <th>{time}</th>
                             {days.map(day => (
                                 <td key={day} className="p-1">
-                                    {schedule && schedule[index] && schedule[index][days.indexOf(day)] && (
-                                    <div className="card w-30 bg-white shadow-sm">
-                                        <div className="card-body">
-                                            <p className="card-title mb-0" style={{ fontSize: '14px', color: 'black' }}>{schedule[index][days.indexOf(day)].course}</p>
-                                            <p className="card-text mb-0" style={{ fontSize: '12px', color: 'black' }}>Teacher: {schedule[index][days.indexOf(day)].teacher}</p>
-                                            <p className="card-text mb-0" style={{ fontSize: '12px', color: 'black' }}>Course Code: {schedule[index][days.indexOf(day)].code}</p>
+                                    {schedule && schedule[index] && schedule[index][days.indexOf(day)] ? (
+                                        <div className="card bg-white shadow-sm" style={{ height: '100px' , width: '100px'}}>
+                                            <div className="card-body" style={{ maxHeight: '100px', overflow: 'hidden', padding: '5px', margin: 0 }}>
+                                                <p className="card-title mb-0" style={{ fontSize: '14px', color: 'black', padding: 0 }}>{schedule[index][days.indexOf(day)].course}</p>
+                                                <p className="card-text mb-0" style={{ fontSize: '12px', color: 'black' }}>Teacher: {schedule[index][days.indexOf(day)].teacher}</p>
+                                                <p className="card-text mb-0" style={{ fontSize: '12px', color: 'black' }}>Course Code: {schedule[index][days.indexOf(day)].code}</p>
+                                            </div>
                                         </div>
-                                    </div>                                    
+                                    ) : (
+                                        <div className="card bg-white shadow-sm" style={{ height: '100px' , width: '100px'}}>
+                                            <div className="card-body" style={{ maxHeight: '100px', overflow: 'hidden' }}>
+                                                {/* Render empty card */}
+                                            </div>
+                                        </div>
                                     )}
                                 </td>
-                                
                             ))}
                         </tr>
                     ))}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const SelectedCourses = ({ courses }) => {
     return (
@@ -28,6 +28,17 @@ const SelectedCourses = ({ courses }) => {
                                 <td>{course.lecTime}</td>
                                 <td>{course.labDay}</td>
                                 <td>{course.labTime}</td>
+                                <td>
+                                    <div className="form-control">
+                                        <label className="cursor-pointer label">
+                                            <input 
+                                                type="checkbox" 
+                                                className="checkbox checkbox-info" 
+                                            />
+                                            <span className="label-text">Lock Course</span>
+                                        </label>
+                                    </div>
+                                </td>
                             </tr>
                         ))}
                     </tbody>
