@@ -1,8 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Table = ({ schedule }) => {
-    console.log(schedule);
-    
+const Table = ({ schedule, onCheckboxListChange }) => {
     const times = [
         "8:30AM to 9:45AM",
         "10:00AM to 11:15AM",
@@ -14,6 +12,20 @@ const Table = ({ schedule }) => {
     ];
 
     const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+    // Initialize checked state for checkboxes as an object with boxKey as keys
+    const [checkedBoxes, setCheckedBoxes] = useState({});
+
+    const handleCheckboxChange = (index, day) => {
+        const boxKey = `${index}-${day}`;
+        setCheckedBoxes(prevCheckedBoxes => {
+            const updatedCheckedBoxes = { ...prevCheckedBoxes };
+            updatedCheckedBoxes[boxKey] = !updatedCheckedBoxes[boxKey];
+            // Call the function passed from the Home component and pass the updatedCheckedBoxes as an array
+            onCheckboxListChange(Object.keys(updatedCheckedBoxes).filter(key => updatedCheckedBoxes[key]));
+            return updatedCheckedBoxes;
+        });
+    };
 
     return (
         <div className="overflow-x-auto">
@@ -32,16 +44,30 @@ const Table = ({ schedule }) => {
                             {days.map(day => (
                                 <td key={day} className="p-1">
                                     {schedule && schedule[index] && schedule[index][days.indexOf(day)] ? (
-                                        <div className="card bg-white shadow-sm" style={{ height: '100px' , width: '100px'}}>
+                                        <div className={`card bg-white shadow-sm ${checkedBoxes[`${index}-${day}`] ? 'bg-primary' : ''}`}>
                                             <div className="card-body" style={{ maxHeight: '100px', overflow: 'hidden', padding: '5px', margin: 0 }}>
+                                                <input
+                                                    type="checkbox"
+                                                    className="form-checkbox"
+                                                    style={{ position: 'absolute', top: '5px', right: '5px', zIndex: 1000 }}
+                                                    checked={checkedBoxes[`${index}-${day}`] || false}
+                                                    onChange={() => handleCheckboxChange(index, day)}
+                                                />
                                                 <p className="card-title mb-0" style={{ fontSize: '14px', color: 'black', padding: 0 }}>{schedule[index][days.indexOf(day)].course}</p>
                                                 <p className="card-text mb-0" style={{ fontSize: '12px', color: 'black' }}>Teacher: {schedule[index][days.indexOf(day)].teacher}</p>
                                                 <p className="card-text mb-0" style={{ fontSize: '12px', color: 'black' }}>Course Code: {schedule[index][days.indexOf(day)].code}</p>
                                             </div>
                                         </div>
                                     ) : (
-                                        <div className="card bg-white shadow-sm" style={{ height: '100px' , width: '100px'}}>
+                                        <div className={`card bg-white shadow-sm ${checkedBoxes[`${index}-${day}`] ? 'bg-primary' : ''}`}>
                                             <div className="card-body" style={{ maxHeight: '100px', overflow: 'hidden' }}>
+                                                <input
+                                                    type="checkbox"
+                                                    className="form-checkbox"
+                                                    style={{ position: 'absolute', top: '5px', right: '5px', zIndex: 1000 }}
+                                                    checked={checkedBoxes[`${index}-${day}`] || false}
+                                                    onChange={() => handleCheckboxChange(index, day)}
+                                                />
                                                 {/* Render empty card */}
                                             </div>
                                         </div>
@@ -51,7 +77,6 @@ const Table = ({ schedule }) => {
                         </tr>
                     ))}
                 </tbody>
-                
             </table>
         </div>
     );

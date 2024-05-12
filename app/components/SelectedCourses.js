@@ -1,6 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const SelectedCourses = ({ courses }) => {
+const SelectedCourses = ({ courses, onCourseLockChange }) => {
+    
+    const handleLockChange = (index, event) => {
+        const updatedCourses = [...courses];
+        updatedCourses[index].locked = event.target.checked;
+        onCourseLockChange(updatedCourses);
+    };
+
     return (
         <div>
             <div className="overflow-x-auto">
@@ -15,6 +22,7 @@ const SelectedCourses = ({ courses }) => {
                             <th>Lecture Time</th>
                             <th>Lab Day</th>
                             <th>Lab Time</th>
+                            <th>Lock Course</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -34,6 +42,8 @@ const SelectedCourses = ({ courses }) => {
                                             <input 
                                                 type="checkbox" 
                                                 className="checkbox checkbox-info" 
+                                                checked={course.locked}
+                                                onChange={(event) => handleLockChange(index, event)}
                                             />
                                             <span className="label-text">Lock Course</span>
                                         </label>

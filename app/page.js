@@ -16,6 +16,10 @@ export default function Home() {
   const [schedules, setSchedules] = useState([]); // Store all generated schedules
   const [currentPage, setCurrentPage] = useState(0); // Current schedule index
 
+  let preferredClassSlot = [];
+  let preferredTiming = [];
+  let part = 0;
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('/data.json'); // Fetch data from data.json in the public directory
@@ -35,11 +39,32 @@ export default function Home() {
     setFilteredCourses(filtered);
   };
 
+  const handleCheckboxList = (checkedList) => {
+    // Handle the list of checked checkboxes received from the Table component
+    console.log("Checked checkboxes:", checkedList);
+    preferredTiming = checkedList.map(item => item.split("-")[0]); // Extract the time from each item
+  };
+
   const handleAddCourse = course => {
     // Add each course individually to selectedCourses
     course.forEach(singleCourse => {
       setSelectedCourses(prevSelectedCourses => [...prevSelectedCourses, singleCourse]);
     });
+  };
+
+  const handleCourseLockChange = (updatedCourses) => {
+    const preferredClassSlots = updatedCourses.filter(course => course.locked).map(course => ({
+      course: course.course,
+      teacher: course.teacher,
+      program: course.program,
+      lecDay: course.lecDay,
+      lecTime: course.lecTime,
+      labDay: course.labDay,
+      labTime: course.labTime
+    }));
+    // setPreferredTimeSlots(preferredTimeSlots);
+    preferredClassSlot.push(preferredClassSlots);
+    console.log("initialized preferredClassSlot", preferredClassSlot);
   };
 
   // Group courses by course title
@@ -55,19 +80,49 @@ export default function Home() {
     return groupedCourses;
   };
 
-
   const handleGenerateSchedules = () => {
     const groupedCourses = groupCoursesByTitle(selectedCourses);
     console.log("Grouped Courses for Schedule Generation:", groupedCourses);
-    
-  //   let prefferedClassSlot  = [];
-  //   let prefferedTiming = [];
-    
-  //   if (this.prefferedClassSlot.length === 0 && this.prefferedTiming.length === 0) {
-  //     this.generateHelper(0, currentSchedule);
-  // }
-    const schedules = generateSchedules(groupedCourses);
-    console.log("Generated Schedules:", schedules);
+    console.log("preferred timing",preferredTiming);
+
+    if (preferredClassSlot.length === 0 && preferredTiming.length === 0) {
+      console.log("inside part 1")
+      part = 1;
+      const schedules = generateSchedules(groupedCourses);
+      console.log("Generated Schedules:", schedules);
+    } else if (preferredClassSlot.length !== 0 && preferredTiming.length === 0) {
+      console.log("inside part 2")
+      part = 2;
+      let updatedChosenSubjects = [];
+      updatedChosenSubjects = updateChosenSubjects(groupedCourses, preferredClassSlot); // Ensure chosenSubjects is an array of arrays
+      // console.log("updated schedules", updatedChosenSubjects);
+      const schedules = generateSchedules(groupedCourses);
+      console.log("Generated Schedules:", schedules);
+    } else if (preferredClassSlot.length === 0 && preferredTiming.length !== 0) {
+      console.log("inside part 3")
+      part = 3;
+      // preferredTiming.forEach(time => {
+      //   currentSchedule[time[0]][time[1]] = new Subject();
+      // });
+      const schedules = generateSchedules(groupedCourses);
+      console.log("Generated Schedules:", schedules);
+    } else {
+      preferredClassSlot.forEach(course => {
+        if (course.labDay === -1) {
+          currentSchedule[course.lecTime][course.lecDay] = course;
+        } else {
+          currentSchedule[course.lecTime][course.lecDay] = course;
+          currentSchedule[course.labTime][course.labDay] = course;
+          currentSchedule[course.labTime + 1][course.labDay] = course;
+        }
+      });
+      updateChosenSubjects();
+      preferredTiming.forEach(time => {
+        currentSchedule[time[0]][time[1]] = new Subject();
+      });
+      this.generateHelperwTimeSlots(0, currentSchedule);
+    }
+
     // Implement your schedule generation logic here or handle it as needed
 
     const newSchedules = generateSchedules(groupedCourses).map(schedule => copySchedule(schedule));
@@ -77,11 +132,72 @@ export default function Home() {
 
   const groupedCourses = groupCoursesByTitle(filteredCourses);
 
+  const updateChosenSubjects = (groupedCourses, preferredClassSlot) => {
+    // console.log("Initial preferredClassSlot:", preferredClassSlot);
+    // console.log("Initial groupedCourses:", groupedCourses);
+
+    // Iterate through each slot in preferredClassSlot
+    for (let i = 0; i < preferredClassSlot.length; i++) {
+      // Iterate through each object in the sub-array
+      for (let j = 0; j < preferredClassSlot[i].length; j++) {
+        const courseToRemove = preferredClassSlot[i][j].course;
+        // console.log("Course to remove:", courseToRemove);
+
+        // Check if the course name exists in groupedCourses and delete it
+        if (groupedCourses.hasOwnProperty(courseToRemove)) {
+          delete groupedCourses[courseToRemove];
+          console.log(`Removed '${courseToRemove}' from groupedCourses.`);
+        } else {
+          console.log(`Course '${courseToRemove}' not found in groupedCourses.`);
+        }
+      }
+    }
+    // Log the final state of groupedCourses after all updates
+    console.log("Final groupedCourses:", groupedCourses);
+  };
+
+  // Define the blockSlots function to mark slots based on preferred timing
+  const blockSlots = (preferredTiming, currentSchedule) => {
+    console.log("inside blockslots")
+    preferredTiming.forEach(item => {
+      const [timeIndex, dayIndex] = item.split("-").map(str => parseInt(str));
+      currentSchedule[timeIndex][dayIndex] = 'Blocked'; // Mark the slot as blocked
+    });
+    console.log(currentSchedule);
+  };
+
   function generateSchedules(groupedCourses) {
     // Convert grouped courses object to an array of arrays
     const coursesLists = Object.values(groupedCourses).map(group => group);
     let validSchedules = [];
-    let currentSchedule = Array.from({ length: 8 }, () => Array(3).fill(null));
+    // let currentSchedule = Array.from({ length: 8 }, () => Array(3).fill(null));
+    let currentSchedule = [];
+    if (part == 1) {
+      currentSchedule = Array.from({ length: 8 }, () => Array(3).fill(null));
+    } else if (part == 2) {
+      currentSchedule = Array.from({ length: 8 }, () => Array(3).fill(null));
+      console.log(groupedCourses);
+      for (let i = 0; i < preferredClassSlot.length; i++) {
+        // Iterate through each object in the sub-array
+        for (let j = 0; j < preferredClassSlot[i].length; j++) {
+          const courseToAdd = preferredClassSlot[i][j];
+          console.log(courseToAdd);
+          if (courseToAdd.labDay === -1) {
+            currentSchedule[courseToAdd.lecTime][courseToAdd.lecDay] = courseToAdd;
+          } else {
+            currentSchedule[courseToAdd.lecTime][courseToAdd.lecDay] = courseToAdd;
+            currentSchedule[courseToAdd.labTime][courseToAdd.labDay] = courseToAdd;
+            currentSchedule[courseToAdd.labTime + 1][courseToAdd.labDay] = courseToAdd;
+          }
+        }
+        console.log("current schedule", currentSchedule);
+      }
+    } else if (part == 3) {
+      currentSchedule = Array.from({ length: 8 }, () => Array(3).fill(null));
+      let slot = blockSlots(currentSchedule, preferredTiming);
+      console.log(slot);
+    }
+
 
     function generateHelper(i, currentSchedule) {
       // Base case
@@ -211,13 +327,13 @@ export default function Home() {
               <button className="btn btn-primary" onClick={handleGenerateSchedules}>Generate Schedules</button>
             </div>
             <div className="px-0">
-              <SelectedCourses courses={selectedCourses} /> {/* Pass selected courses to SelectedCourses component */}
+              <SelectedCourses courses={selectedCourses} onCourseLockChange={handleCourseLockChange} />
             </div>
           </div>
           <div className="divider lg:divider-horizontal"></div>
           <div className="grid flex-grow w-8">
             <Pagination schedules={schedules} currentPage={currentPage} onPageChange={handlePageChange} />
-            <Table schedule={schedules[currentPage]} />
+            <Table schedule={schedules[currentPage]} onCheckboxListChange={handleCheckboxList} />
           </div>
         </div>
       </div>
