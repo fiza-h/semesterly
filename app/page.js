@@ -15,6 +15,7 @@ export default function Home() {
   const [selectedCourses, setSelectedCourses] = useState([]); // State to store selected courses
   const [schedules, setSchedules] = useState([]); // Store all generated schedules
   const [currentPage, setCurrentPage] = useState(0); // Current schedule index
+  const [clearCourses, setClearCourses] = useState(false); // State to track if courses are cleared
 
   let preferredClassSlot = [];
   let preferredTiming = [];
@@ -22,7 +23,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('/data.json'); // Fetch data from data.json in the public directory
+      const response = await fetch('/csvjson.json'); // Fetch data from data.json in the public directory
       const data = await response.json();
       setCourses(data);
       setFilteredCourses(data); // Initially show all courses
@@ -39,10 +40,16 @@ export default function Home() {
     setFilteredCourses(filtered);
   };
 
+  const handleClearCourses = () => {
+    setSelectedCourses([]); // Empty the selected courses list
+    setSchedules([]); // Empty
+    setClearCourses(prevState => !prevState); // Toggle clearCourses state
+  };
+
   const handleCheckboxList = (checkedList) => {
     // Handle the list of checked checkboxes received from the Table component
     console.log("Checked checkboxes:", checkedList);
-    preferredTiming = checkedList.map(item => item.split("-")[0]); // Extract the time from each item
+    preferredTiming = checkedList; // Extract the time from each item
   };
 
   const handleAddCourse = course => {
@@ -83,7 +90,7 @@ export default function Home() {
   const handleGenerateSchedules = () => {
     const groupedCourses = groupCoursesByTitle(selectedCourses);
     console.log("Grouped Courses for Schedule Generation:", groupedCourses);
-    console.log("preferred timing",preferredTiming);
+    console.log("preferred timing", preferredTiming);
 
     if (preferredClassSlot.length === 0 && preferredTiming.length === 0) {
       console.log("inside part 1")
@@ -156,15 +163,43 @@ export default function Home() {
     console.log("Final groupedCourses:", groupedCourses);
   };
 
-  // Define the blockSlots function to mark slots based on preferred timing
   const blockSlots = (preferredTiming, currentSchedule) => {
-    console.log("inside blockslots")
+    console.log("inside blockSlots");
+
+    // Initialize an array to store [timeIndex, constDayIndex] pairs
+    const timeDayPairs = [];
+
+    // Iterate over each item in preferredTiming
     preferredTiming.forEach(item => {
-      const [timeIndex, dayIndex] = item.split("-").map(str => parseInt(str));
-      currentSchedule[timeIndex][dayIndex] = 'Blocked'; // Mark the slot as blocked
+      console.log("inside if")
+      if (typeof item === 'string') { // Check if item is a string
+        const [timeIndexStr, dayIndexStr] = item.split('-');
+        const timeIndex = parseInt(timeIndexStr);
+        let constDayIndex;
+
+        // Determine constDayIndex based on the day string
+        if (dayIndexStr === "Monday" || dayIndexStr === "Wednesday") {
+          constDayIndex = 0;
+        } else if (dayIndexStr === "Tuesday" || dayIndexStr === "Thursday") {
+          constDayIndex = 1;
+        } else {
+          constDayIndex = 2;
+        }
+
+        // Push [timeIndex, constDayIndex] pair into the array
+        console.log(timeIndex);
+        console.log(constDayIndex);
+        timeDayPairs.push([timeIndex, constDayIndex]);
+      } else {
+        console.log("else");
+        console.error(`Invalid item type: ${typeof item}. Expected a string.`);
+      }
     });
-    console.log(currentSchedule);
+
+    console.log("Output array:", timeDayPairs);
+    // You can use the currentSchedule here if needed
   };
+
 
   function generateSchedules(groupedCourses) {
     // Convert grouped courses object to an array of arrays
@@ -309,31 +344,39 @@ export default function Home() {
     <main>
       <div>
         <Navbar />
-        <div className="flex flex-col lg:flex-row">
-          <div className="grid flex-grow h-32 w-2">
-            <div className="py-10">
-              <SearchBar onSearch={handleSearch} />
+        <div className="grid grid-cols-12">
+          <div className="flex flex-col lg:flex-row">
+            <div>
+              {/* Adjusting width of the first div */}
+              <div className="col-span-2"> {/* Adjust col-span as needed */}
+                <div className="py-10">
+                  <SearchBar onSearch={handleSearch} />
+                </div>
+                <div className="py-0">
+                  {Object.entries(groupedCourses).map(([courseTitle, courses]) => (
+                    <CourseCard key={courseTitle} courseTitle={courseTitle} courses={courses} onAdd={handleAddCourse} clearCourses={clearCourses} />
+                  ))}
+                </div>
+              </div>
             </div>
-            <div className="py-0">
-              {Object.entries(groupedCourses).map(([courseTitle, courses]) => (
-                <CourseCard key={courseTitle} courseTitle={courseTitle} courses={courses} onAdd={handleAddCourse} />
-              ))}
+            <div className="divider lg:divider-horizontal"></div>
+            <div className="col-span-2">
+            <div className="flex flex-row items-center justify-between">
+                <h1>Selected Courses</h1>
+                <div>
+                <button className="btn btn-primary mr-2" onClick={handleClearCourses}>Clear Courses</button>
+                <button className="btn btn-primary" onClick={handleGenerateSchedules}>Generate Schedules</button>
+                </div>
+              </div>
+              <div className="px-0">
+                <SelectedCourses courses={selectedCourses} onCourseLockChange={handleCourseLockChange} />
+              </div>
             </div>
-          </div>
-          <div className="divider lg:divider-horizontal"></div>
-          <div className="grid flex-grow h-32 w-2">
-            <div className="flex flex-row">
-              <h1>Selected Courses</h1>
-              <button className="btn btn-primary" onClick={handleGenerateSchedules}>Generate Schedules</button>
+            <div className="divider lg:divider-horizontal"></div>
+            <div className="col-span-8">
+              <Pagination schedules={schedules} currentPage={currentPage} onPageChange={handlePageChange} />
+              <Table schedule={schedules[currentPage]} onCheckboxListChange={handleCheckboxList} />
             </div>
-            <div className="px-0">
-              <SelectedCourses courses={selectedCourses} onCourseLockChange={handleCourseLockChange} />
-            </div>
-          </div>
-          <div className="divider lg:divider-horizontal"></div>
-          <div className="grid flex-grow w-8">
-            <Pagination schedules={schedules} currentPage={currentPage} onPageChange={handlePageChange} />
-            <Table schedule={schedules[currentPage]} onCheckboxListChange={handleCheckboxList} />
           </div>
         </div>
       </div>

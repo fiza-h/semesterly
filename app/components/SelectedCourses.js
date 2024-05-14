@@ -8,6 +8,44 @@ const SelectedCourses = ({ courses, onCourseLockChange }) => {
         onCourseLockChange(updatedCourses);
     };
 
+    // Function to map numerical day index to day names
+    const mapDay = (dayIndex) => {
+        switch (dayIndex) {
+            case 0:
+                return 'Monday/ Wednesday';
+            case 1:
+                return 'Tuesday/ Thursday';
+            case 2:
+                return 'Friday/ Saturday';
+            default:
+                return 'N/A';
+        }
+    };
+
+    // Function to map numerical time index to time formats
+    const mapTime = (timeIndex) => {
+        switch (timeIndex) {
+            case 0:
+                return '8:30AM to 9:45AM';
+            case 1:
+                return '10:00AM to 11:15AM';
+            case 2:
+                return '10:00AM to 11:15AM';
+            case 3:
+                return '11:30AM to 12:45PM';
+            case 4:
+                return '1:00PM to 2:15PM';
+            case 5:
+                return '2:30PM to 3:45PM';
+            case 6:
+                return '4:00PM to 5:15PM';
+            case 7:
+                return '5:30PM to 6:45PM';
+            default:
+                return 'N/A';
+        }
+    };
+
     return (
         <div>
             <div className="overflow-x-auto">
@@ -32,10 +70,10 @@ const SelectedCourses = ({ courses, onCourseLockChange }) => {
                                 <td>{course.course}</td>
                                 <td>{course.teacher}</td>
                                 <td>{course.program}</td>
-                                <td>{course.lecDay}</td>
-                                <td>{course.lecTime}</td>
-                                <td>{course.labDay}</td>
-                                <td>{course.labTime}</td>
+                                <td>{mapDay(course.lecDay)}</td>
+                                <td>{mapTime(course.lecTime)}</td>
+                                <td>{mapDay(course.labDay)}</td>
+                                <td>{mapTime(course.labTime)}</td>
                                 <td>
                                     <div className="form-control">
                                         <label className="cursor-pointer label">

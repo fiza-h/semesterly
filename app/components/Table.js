@@ -44,30 +44,29 @@ const Table = ({ schedule, onCheckboxListChange }) => {
                             {days.map(day => (
                                 <td key={day} className="p-1">
                                     {schedule && schedule[index] && schedule[index][days.indexOf(day)] ? (
-                                        <div className={`card bg-white shadow-sm ${checkedBoxes[`${index}-${day}`] ? 'bg-primary' : ''}`}>
-                                            <div className="card-body" style={{ maxHeight: '100px', overflow: 'hidden', padding: '5px', margin: 0 }}>
-                                                <input
+                                        <div className={`card ${checkedBoxes[`${index}-${day}`] ? 'bg-slate-900' : 'bg-white'} shadow-sm`}>
+                                            <div className="card-body" style={{ maxHeight: "150px", maxWidth: '150px', height: '150px', width: '150px', overflow: 'hidden', padding: '5px', margin: 0 }}>
+                                                {/* <input
                                                     type="checkbox"
                                                     className="form-checkbox"
                                                     style={{ position: 'absolute', top: '5px', right: '5px', zIndex: 1000 }}
                                                     checked={checkedBoxes[`${index}-${day}`] || false}
                                                     onChange={() => handleCheckboxChange(index, day)}
-                                                />
-                                                <p className="card-title mb-0" style={{ fontSize: '14px', color: 'black', padding: 0 }}>{schedule[index][days.indexOf(day)].course}</p>
-                                                <p className="card-text mb-0" style={{ fontSize: '12px', color: 'black' }}>Teacher: {schedule[index][days.indexOf(day)].teacher}</p>
-                                                <p className="card-text mb-0" style={{ fontSize: '12px', color: 'black' }}>Course Code: {schedule[index][days.indexOf(day)].code}</p>
+                                                /> */}
+                                                <p className="card-title mb-0" style={{ lineHeight: '1.2', fontSize: '16px', color: 'black', padding: 0 }}>{schedule[index][days.indexOf(day)].course}</p>
+                                                <p className="card-text mb-0" style={{ fontSize: '16px', color: 'black' }}>{schedule[index][days.indexOf(day)].teacher}</p>
                                             </div>
                                         </div>
                                     ) : (
-                                        <div className={`card bg-white shadow-sm ${checkedBoxes[`${index}-${day}`] ? 'bg-primary' : ''}`}>
-                                            <div className="card-body" style={{ maxHeight: '100px', overflow: 'hidden' }}>
-                                                <input
+                                        <div className={`card ${checkedBoxes[`${index}-${day}`] ? 'bg-slate-900' : 'bg-white'} shadow-sm`}>
+                                            <div className="card-body" style={{maxHeight: "150px", maxWidth: '150px', height: '150px', width: '150px', overflow: 'hidden', padding: '2px', }}>
+                                                {/* <input
                                                     type="checkbox"
                                                     className="form-checkbox"
                                                     style={{ position: 'absolute', top: '5px', right: '5px', zIndex: 1000 }}
                                                     checked={checkedBoxes[`${index}-${day}`] || false}
                                                     onChange={() => handleCheckboxChange(index, day)}
-                                                />
+                                                /> */}
                                                 {/* Render empty card */}
                                             </div>
                                         </div>

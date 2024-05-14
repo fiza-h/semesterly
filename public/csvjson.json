@@ -1,0 +1,2272 @@
+[
+  {
+    "code": 96020,
+    "course": "Information Security and Ethics",
+    "teacher": "Dr. Irfan Nabi",
+    "program": "BSCS-8",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71189,
+    "course": "Financial Institutions and Markets",
+    "teacher": "Dr. Saqib Sharif",
+    "program": "BBA-4",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71273,
+    "course": "Institutional Economics",
+    "teacher": "Ms. Javeria Younas Abbas",
+    "program": "ECO - Elective",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71185,
+    "course": "Fundamentals of Supply Chain Management",
+    "teacher": "Mr. Adnan Ahmad",
+    "program": "MGMT Elective",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71204,
+    "course": "Pakistan History",
+    "teacher": "Dr. Jaffar Ahmed",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71258,
+    "course": "Integrated Marketing Communication",
+    "teacher": "Ms. Kiran Kohati",
+    "program": "MKT-E",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71186,
+    "course": "Production and Operations Management",
+    "teacher": "Mr. Sajjad H. Mahesri",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96104,
+    "course": "Statistical Modeling",
+    "teacher": "Dr. Javed Iqbal",
+    "program": "BSMT - 4",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71276,
+    "course": "Contemporary Issues in Global Economics",
+    "teacher": "Ms. Shafia Imtiaz",
+    "program": "BSECO - 8",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71277,
+    "course": "Statistical Inferences",
+    "teacher": "Dr. Amir Bashir",
+    "program": "BSECO - 4",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71192,
+    "course": "Chinese -II",
+    "teacher": "Mr. Mirza Qaisar Ahmed Baig",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71170,
+    "course": "Speech Communication",
+    "teacher": "Mr. Farhan Shaukut",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71169,
+    "course": "Speech Communication",
+    "teacher": "Ms Sabina Qazi",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95984,
+    "course": "Chinese-1",
+    "teacher": "Ms.Sobia Akber",
+    "program": "BSEM-BS-Eco NS",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71278,
+    "course": "Essential Software",
+    "teacher": "Dr. Abdul Majid",
+    "program": "BSECO - 4",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96111,
+    "course": "Introduction to Text Analytics - Mega",
+    "teacher": "Dr. Sajjad Haider",
+    "program": "CS Elective",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96110,
+    "course": "Introduction to Text Analytics - Mega",
+    "teacher": "Dr. Sajjad Haider",
+    "program": "CS Elective",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71239,
+    "course": "Data Manipulation & Visualization",
+    "teacher": "Mr. Asad Sajjid",
+    "program": "MKT-E",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71240,
+    "course": "Entrepreneurship",
+    "teacher": "Mr. Usman Nazir",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71183,
+    "course": "Philosophy Logic and Ethics(PLE)",
+    "teacher": "Dr. Amana Raquib",
+    "program": "BSSS-4",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95998,
+    "course": "German-1",
+    "teacher": "Mr. Irfan Khan",
+    "program": "All Program",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 90091,
+    "course": "Spanish-II",
+    "teacher": "In�s Mena G�mez de Merodio",
+    "program": "All Program",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71205,
+    "course": "Speech Communication",
+    "teacher": "Dr. Nadya Chishty",
+    "program": "BSCS-2",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71201,
+    "course": "Speech Communication",
+    "teacher": "Ms. Samina Wahid",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71282,
+    "course": "Speech Communication",
+    "teacher": "Ms. Shumaila Omar",
+    "program": "BSECO - 2",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71202,
+    "course": "Advanced Auditing",
+    "teacher": "Mr. Abdul Basit",
+    "program": "BSAF-8",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": "71203 - 71200",
+    "course": "Programming for Finance (Only Monday 8:30 to 9:45 & 10:00 to 11:15)\n(Only Wednesday 8:30 to 9:45 & 10:00 to 11:15)",
+    "teacher": "Dr. Adnan Haider",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": 0,
+    "labTime": 0
+  },
+  {
+    "code": 96063,
+    "course": "Information Security and Ethics",
+    "teacher": "Dr. Irfan Nabi",
+    "program": "BSCS-8",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71188,
+    "course": "Clinical Psychology",
+    "teacher": "Dr. Saima Bint e Saif",
+    "program": "BSSS - 6/8 Elective",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71171,
+    "course": "Speech Communication",
+    "teacher": "Ms. Tehmina Iftikhar Qureshi",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71172,
+    "course": "Speech Communication",
+    "teacher": "Ms.Tazeen Erum",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96128,
+    "course": "Pakistan History",
+    "teacher": "Dr. Jaffar Ahmed",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71283,
+    "course": "Pakistan History",
+    "teacher": "Ms. Ramsha Siddiqui",
+    "program": "BSECO - 2",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96107,
+    "course": "production",
+    "teacher": "Mr. Sajjad H. Mahesri",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71242,
+    "course": "Business Mathematics and Linear Algebra",
+    "teacher": "Ms. Samreen Zaman",
+    "program": "BBA-4",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71284,
+    "course": "Contemporary Issues in Global Economics",
+    "teacher": "Ms. Shafia Imtiaz",
+    "program": "BSECO - 8",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71285,
+    "course": "Macroeconomic Theory",
+    "teacher": "Dr. Wali Ullah",
+    "program": "BSECO/EM - 6",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71244,
+    "course": "Arabic -II",
+    "teacher": "Mr. Syed Farid Iqbal",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71192,
+    "course": "Chinese -II (Lab) Monday Only",
+    "teacher": "Mr. Mirza Qaisar Ahmed Baig",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": 0,
+    "labTime": 1
+  },
+  {
+    "code": 71212,
+    "course": "Speech Communication",
+    "teacher": "Ms. Maria Haqqani",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71213,
+    "course": "Speech Communication",
+    "teacher": "Ms.Irum Iqbal Hussain",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71214,
+    "course": "Speech Communication",
+    "teacher": "Ms. Maria Hassan",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71197,
+    "course": "History of Art",
+    "teacher": "Ms. Nageen Shaikh",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96025,
+    "course": "Industrial Economics and Business Strategy",
+    "teacher": "Dr. Amir Jahan Khan",
+    "program": "ECO - Elective",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71286,
+    "course": "Essential Software",
+    "teacher": "Dr. Abdul Majid",
+    "program": "BSECO - 4",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71215,
+    "course": "Corporate Finance",
+    "teacher": "Dr. Sana Tauseef",
+    "program": "FIN-Elective",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96121,
+    "course": "Introduction to Trade Marketing",
+    "teacher": "Mr. Adnan Ahmed",
+    "program": "MKT-E",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71248,
+    "course": "Entrepreneurship",
+    "teacher": "Mr. Usman Nazir",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71198,
+    "course": "Media Aesthetics and History: Film, TV and Digital Media",
+    "teacher": "Ms. Mariam Aziz",
+    "program": "BSSS-6 Major Core",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75356,
+    "course": "Advertising",
+    "teacher": "Ms. Kiran Sardar Kohati (TBA)",
+    "program": "Marketing Elective",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96125,
+    "course": "Differential Geometry",
+    "teacher": "Dr. Danish Ali",
+    "program": "BSMT - 4",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 90092,
+    "course": "Spanish-II(Lab Only Monday) Spanish-II(Lab Only Wednesday)",
+    "teacher": "In�s Mena G�mez de Merodio",
+    "program": "All Program",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": 0,
+    "labTime": 1
+  },
+  {
+    "code": 90091,
+    "course": "Spanish-II(Lab Only Monday) Spanish-II(Lab Only Wednesday)",
+    "teacher": "In�s Mena G�mez de Merodio",
+    "program": "All Program",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": 0,
+    "labTime": 1
+  },
+  {
+    "code": 71216,
+    "course": "Speech Communication",
+    "teacher": "Ms. Samina Wahid",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71193,
+    "course": "Creative Writing",
+    "teacher": "Dr. Nadya Mujahid Chishty",
+    "program": "BSSS6/8 Elective",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95984,
+    "course": "Chinese-1(Lab Only Monday)",
+    "teacher": "Ms. Sobia Akber",
+    "program": "BSEM-BS-Eco NS",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": 0,
+    "labTime": 1
+  },
+  {
+    "code": 71218,
+    "course": "Advanced Financial Reporting",
+    "teacher": "Dr. Sharjeel Hasnie",
+    "program": "AF-8",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71219,
+    "course": "International Financial Management",
+    "teacher": "Dr. Fawad Ahmad",
+    "program": "FIN-Elective",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71288,
+    "course": "Speech Communication",
+    "teacher": "Ms. Shumaila Omar",
+    "program": "BSECO - 2",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71259,
+    "course": "Ethics In Ccorporate Society",
+    "teacher": "Dr. Amer Iqbal Awan",
+    "program": "MGT-E",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71221,
+    "course": "Advanced Auditing",
+    "teacher": "Mr. Abdul Basit",
+    "program": "BSAF-8",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71263,
+    "course": "Financial Institutions and Markets",
+    "teacher": "Dr. Saqib Sharif",
+    "program": "BBA-4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71173,
+    "course": "Speech Communication",
+    "teacher": "Ms. Tehmina Qureshi",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71174,
+    "course": "Speech Communication",
+    "teacher": "Ms. Tazeen Erum",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71208,
+    "course": "Pakistan History",
+    "teacher": "Ms. Parmal Ahmed",
+    "program": "BSCS",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71290,
+    "course": "Data Warehousing",
+    "teacher": "Ms. Abeera Tariq",
+    "program": "CS Elective",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71264,
+    "course": "Entrepreneurship",
+    "teacher": "Mr. Usman Nazir",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71265,
+    "course": "Business Mathematics and Linear Algebra",
+    "teacher": "Ms. Samreen Zaman",
+    "program": "BBA-4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71291,
+    "course": "Applied Econometrics II (Lecture)",
+    "teacher": "Ms. Fatima Sadik",
+    "program": "BSECO/EM - 6",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71292,
+    "course": "Applied Econometrics II (Lecture)",
+    "teacher": "Dr. Wali Ullah",
+    "program": "BSECO/EM - 6",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": 0,
+    "labTime": 4
+  },
+  {
+    "code": 71244,
+    "course": "Arabic -II (lab) Monday Only",
+    "teacher": "Mr. Syed Farid Iqbal",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": 0,
+    "labTime": 2
+  },
+  {
+    "code": 71268,
+    "course": "German -II",
+    "teacher": "Mr. Irfan Khan",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71223,
+    "course": "Speech Communication",
+    "teacher": "Ms. Nassera Naushad",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71224,
+    "course": "Speech Communication",
+    "teacher": "Ms. Irum Iqbal Hussain",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71225,
+    "course": "Speech Communication",
+    "teacher": "Ms. Sara Mazhar",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71294,
+    "course": "Speech Communication",
+    "teacher": "Ms. Talat Davis",
+    "program": "BSCS-2",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96134,
+    "course": "Introduction to Cryptography",
+    "teacher": "Ms. Tasbhia Fatima",
+    "program": "CS Elective",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71295,
+    "course": "Essential Software",
+    "teacher": "Dr. Abdul Majid",
+    "program": "BSECO - 4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96077,
+    "course": "Urban Planning Theories and Paradigms",
+    "teacher": "Dr. Adam Abdullah",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71296,
+    "course": "Marketing Issues in Pakistan",
+    "teacher": "Dr. Farah Naz",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71226,
+    "course": "Corporate Law",
+    "teacher": "Mr. Muhammad Azam",
+    "program": "BSAF-4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71234,
+    "course": "Research Methods in Psychology",
+    "teacher": "Dr. Ayesha Zia",
+    "program": "BSSS-6 Major Core",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 90092,
+    "course": "Spanish-II",
+    "teacher": "In�s Mena G�mez de Merodio",
+    "program": "All Program",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75906,
+    "course": "Speech Communication",
+    "teacher": "Ms. Palvashay Sethi",
+    "program": "BSCS-2",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71328,
+    "course": "Dark Side of Marketing",
+    "teacher": "Dr. Asim Shabir",
+    "program": "MKT-E",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96015,
+    "course": "Introduction to Quantum Mechanics",
+    "teacher": "Dr. Shabana Nisar",
+    "program": "BSMT - 4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71243,
+    "course": "Spirituality in Islam: Classical Texts and Themes",
+    "teacher": "Dr. Moiz Hassan",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71227,
+    "course": "Management Accounting",
+    "teacher": "Ms. Mahwish Baasit Hussain",
+    "program": "BSAF-4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71302,
+    "course": "Ethics In Corporate Society",
+    "teacher": "Dr. Amer Iqbal Awan",
+    "program": "MGT-E",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71220,
+    "course": "Speech Communication",
+    "teacher": "Ms. Maria Hassan",
+    "program": "BSECO - 2",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71228,
+    "course": "Advanced Managerial accounting",
+    "teacher": "Ms. Zaira Aness",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71289,
+    "course": "Microeconomic Theory",
+    "teacher": "Dr. Heman Das Lohano",
+    "program": "BSECO/EM - 4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75875,
+    "course": "Security Analysis",
+    "teacher": "Mr. Ammar Habib",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71175,
+    "course": "Speech Communication",
+    "teacher": "Mr. Farhan Shaukut",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71184,
+    "course": "International Relations",
+    "teacher": "Mr. Sajjad Ahmad",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71177,
+    "course": "Speech Communication",
+    "teacher": "Ms. Tehmina Qureshi",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71178,
+    "course": "Speech Communication",
+    "teacher": "Ms. Tazeen Erum",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71262,
+    "course": "Pakistan History",
+    "teacher": "Mr. Faseeh Ahmed",
+    "program": "BSAF-2",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96054,
+    "course": "Pakistan History",
+    "teacher": "Ms. Parmal Ahmed",
+    "program": "BSECO - 2",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75818,
+    "course": "Pakistan History",
+    "teacher": "Dr. Moiz Khan",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71293,
+    "course": "Applied Econometrics II (Lecture)",
+    "teacher": "Ms. Fatima Sadik",
+    "program": "BSECO/EM - 6",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71176,
+    "course": "Speech Communication",
+    "teacher": "Ms. Aamna Salim Motala",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96024,
+    "course": "Arabic - I",
+    "teacher": "Mr. Syed Farid Iqbal",
+    "program": "NS\\EM\\ECO",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71268,
+    "course": "German -II (Lab) Wednesday Only",
+    "teacher": "Mr. Irfan Khan",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": 0,
+    "labTime": 3
+  },
+  {
+    "code": 71303,
+    "course": "French -II Lab (Mon Only)",
+    "teacher": "Mr. Leroy Johns & \nMs. Hira Fahad",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": 0,
+    "labTime": 3
+  },
+  {
+    "code": 75802,
+    "course": "Speech Communication",
+    "teacher": "Ms. Maria Haqqani",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96019,
+    "course": "Speech Communication",
+    "teacher": "Ms. Talat Davis",
+    "program": "BSMT - 2",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71246,
+    "course": "Introduction to Urban Studies",
+    "teacher": "Dr. Adam Abdullah",
+    "program": "BSSS-4",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95998,
+    "course": "German-1( Lab only Monday)",
+    "teacher": "Mr. Irfan Khan",
+    "program": "All program",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": 0,
+    "labTime": 3
+  },
+  {
+    "code": 95896,
+    "course": "Neural Networks and Deep Learning",
+    "teacher": "Dr. Tahir  Syed",
+    "program": "CS Elective",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75800,
+    "course": "Corporate Law",
+    "teacher": "Mr. Muhammad Azam",
+    "program": "BSAF-4",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96000,
+    "course": "Pakistan History",
+    "teacher": "Dr. Humera Naz",
+    "program": "BSECO - 2",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 90815,
+    "course": "French -I",
+    "teacher": "Ms. Fitia, Ms Rabesalama Leroy Johns",
+    "program": "All Programs",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": 0,
+    "labTime": 4
+  },
+  {
+    "code": 96113,
+    "course": "Intro. to Literary Studies",
+    "teacher": "Dr. Anum Tariq",
+    "program": "BSSS-4",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71251,
+    "course": "Comparative Politics",
+    "teacher": "Dr. Bilal Munshi",
+    "program": "BSSS-6 Major Core",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96174,
+    "course": "Dark Side of Marketing",
+    "teacher": "N/A",
+    "program": "MKT-E",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71304,
+    "course": "Financial Institutions and Markets",
+    "teacher": "Dr. Saqib Sharif",
+    "program": "BBA-4",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96106,
+    "course": "Ethnomusicology: Music and Culture",
+    "teacher": "Dr. Abdul Haq Chang",
+    "program": "BSSS-6/8 Elective",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71179,
+    "course": "Speech Communication",
+    "teacher": "Ms. Aamna Salim Motala",
+    "program": "BSEM - 2",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71180,
+    "course": "Speech Communication",
+    "teacher": "Mr. Babur Suri",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96007,
+    "course": "Portfolio Management",
+    "teacher": "Dr. Faisal Nazir",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75956,
+    "course": "Portfolio Management",
+    "teacher": "Dr. Mujeeb-u-Rehman",
+    "program": "FIN-Elective",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96002,
+    "course": "Parallel & Distributed Computing",
+    "teacher": "Mr. Zain Uddin",
+    "program": "BSCS-6",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": 0,
+    "labTime": 5
+  },
+  {
+    "code": 71305,
+    "course": "Business Mathematics and Linear Algebra",
+    "teacher": "Ms. Samreen Zaman",
+    "program": "BBA-4",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71291,
+    "course": "Applied Econometrics II (Lecture 0000 and Lab 0000) - (Monday only) Applied Econometrics II (Lecture 0000 and Lab 0000) - (Wednesday only)",
+    "teacher": "Ms. Fatima Sadik",
+    "program": "BSECO/EM - 6",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": 0,
+    "labTime": 5
+  },
+  {
+    "code": 96024,
+    "course": "Arabic - I (lab) Monday Only",
+    "teacher": "Mr. Syed Farid Iqbal",
+    "program": "NS\\EM\\ECO",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": 0,
+    "labTime": 5
+  },
+  {
+    "code": 71303,
+    "course": "French -II",
+    "teacher": "Mr. Leroy Johns & \nMs. Hira Fahad",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75957,
+    "course": "Pakistan History",
+    "teacher": "Dr. Kiran Siddiqui",
+    "program": "BSAF-2",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95999,
+    "course": "Arabic - I",
+    "teacher": "Mr. Muhammad Naeem",
+    "program": "NS\\EM\\ECO",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71306,
+    "course": "Arabic - II",
+    "teacher": "Mr. Abu Tahir Siddiq",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96017,
+    "course": "Modern Quantitative Methods",
+    "teacher": "Dr. Muhammad Nasir",
+    "program": "ECO - Elective",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75907,
+    "course": "Introduction to Programming",
+    "teacher": "Mr. Farhan Siddiqui",
+    "program": "BSCS-1",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": 0,
+    "labTime": 5
+  },
+  {
+    "code": 71267,
+    "course": "International Business (For BSAF & BBA)",
+    "teacher": "Dr. Muhammad Ayaz",
+    "program": "BSAF & BBA",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96014,
+    "course": "Mathematical Methods",
+    "teacher": "Mr. Maqsood Alam",
+    "program": "BSMT - 4",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96135,
+    "course": "Pakistan History",
+    "teacher": "Ms. Kishwar Khan",
+    "program": "BSAF-2",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96171,
+    "course": "Poverty and Income Distribution",
+    "teacher": "Dr. Lubna Naz",
+    "program": "ECO - Elective",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71260,
+    "course": "Arabic-II",
+    "teacher": "Mr. Abdullah M. Yousuf Khan",
+    "program": "BSSS-4",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71261,
+    "course": "War: Conceptual Underpinnings",
+    "teacher": "Dr. Bilal Munshi",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96078,
+    "course": "From Gestures to Fluency: The Miracle of Language Development",
+    "teacher": "Ms. Maria Haqqani",
+    "program": "BSSS-6 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96079,
+    "course": "Introduction to Urban Sociology",
+    "teacher": "Mr. Arslan Waheed",
+    "program": "BSSS-4",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71266,
+    "course": "Freaks, Geeks and Monsters: Exploring the Role of Other in Fiction",
+    "teacher": "Dr. Anum Tariq",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96087,
+    "course": "Sustainable Urban Development",
+    "teacher": "Mr. Soha Macktoom",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96029,
+    "course": "Speech Communication",
+    "teacher": "Ms. Nassera Naushad",
+    "program": "BSEM - 2",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71269,
+    "course": "Social and Political history of medicine",
+    "teacher": "Mr. Faseeh Ahmed",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96166,
+    "course": "Arabic - I",
+    "teacher": "Mr. Ubaid-ur- Rehman",
+    "program": "All programs",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71274,
+    "course": "Foundations to Data Science",
+    "teacher": "Mr. Usman Ali",
+    "program": "BSEM - 4",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96058,
+    "course": "International Trade",
+    "teacher": "Ms. Aqsa Jawed",
+    "program": "BSEM - 8",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96009,
+    "course": "Speech Communication",
+    "teacher": "Dr. Faisal Nazir",
+    "program": "BBA-2",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96316,
+    "course": "Sustainable Urban Development",
+    "teacher": "Ms. Soha Macktoom",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95996,
+    "course": "Linear Algebra",
+    "teacher": "Dr. Muhammad Shahid Qureshi",
+    "program": "BSEM - 4",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96101,
+    "course": "Computer Security",
+    "teacher": "Dr. Faisal Iradat",
+    "program": "CS-Elective",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75810,
+    "course": "Portfolio Management",
+    "teacher": "Dr. Mujeeb-u-Rehman",
+    "program": "FIN-Elective",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96180,
+    "course": "course Principles of Marketing",
+    "teacher": "Mr. Sheikh Muhammad Irfan",
+    "program": "",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95995,
+    "course": "Post Development & Alternative to Dev.",
+    "teacher": "Ms. Sadia Mehboob",
+    "program": "ECO - Elective",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75811,
+    "course": "Speech Communication",
+    "teacher": "Ms. Aamna Salim Motala",
+    "program": "BSAF",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96010,
+    "course": "Speech Communication",
+    "teacher": "Mr. Farhan Shaukut",
+    "program": "BSCS-2",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95999,
+    "course": "Arabic - I (lab) Monday Only",
+    "teacher": "Mr. Muhammad Naeem",
+    "program": "NS\\EM\\ECO",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": 0,
+    "labTime": 6
+  },
+  {
+    "code": 71306,
+    "course": "Arabic - II (Lab) Monday Only",
+    "teacher": "Mr. Abu Tahir Siddiq",
+    "program": "BBA-6",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": 0,
+    "labTime": 6
+  },
+  {
+    "code": 71307,
+    "course": "Introduction to Marketing Analytics",
+    "teacher": "Ms. Sumayyah Khurshid",
+    "program": "MKT-E",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71308,
+    "course": "Introduction to Marketing Analytics",
+    "teacher": "Ms. Sumayyah Khurshid",
+    "program": "MKT-E",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96086,
+    "course": "Journalism and Society",
+    "teacher": "Dr. Amir Hamza Marwan",
+    "program": "BSSS-6/8ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96031,
+    "course": "Speech Communication",
+    "teacher": "Ms. Safia Mahmood",
+    "program": "BSECO - 2",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 7510,
+    "course": "Speech Communication",
+    "teacher": "Mr. Babar Suri",
+    "program": "BSCS-2",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75666,
+    "course": "Pakistan's Foreign Policy",
+    "teacher": "Mr. Haider Nizamani",
+    "program": "BSSS-6/8 Elective",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71260,
+    "course": "Arabic- II (Lab only Wednesday)",
+    "teacher": "Mr. Abdullah M. Yousuf Khan",
+    "program": 71312,
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": 0,
+    "labTime": 6
+  },
+  {
+    "code": 75668,
+    "course": "German - II",
+    "teacher": "Mr. Irfan Samad Khan",
+    "program": "BSSS-4",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75667,
+    "course": "Forensic and Criminal Psychology",
+    "teacher": "Mr. Shameel  Khan",
+    "program": "BSSS-6/8 Elective",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75670,
+    "course": "Indian Ocean History",
+    "teacher": "Ms. Ramsha Siddiqui",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 7809,
+    "course": "Speech Communication",
+    "teacher": "Ms. Nassera Naushad",
+    "program": "BSCS-2",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96034,
+    "course": "Shakespeare: Antony and Cleopatra.",
+    "teacher": "Ms. Talat Davis",
+    "program": "BSSS Elective",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71301,
+    "course": "Environmental Economics",
+    "teacher": "Dr. Ghamz e Ali",
+    "program": "ECO - Elective",
+    "lecDay": 0,
+    "lecTime": 6,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96164,
+    "course": "Essential Software",
+    "teacher": "Dr. M. Yousuf Tufail",
+    "program": "",
+    "lecDay": 0,
+    "lecTime": 6,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75668,
+    "course": "German � II (Only Wednesday Lab)",
+    "teacher": "Mr. Irfan Samad Khan",
+    "program": "BSSS-4",
+    "lecDay": 0,
+    "lecTime": 6,
+    "labDay": 0,
+    "labTime": 6
+  },
+  {
+    "code": 71300,
+    "course": "Essential Software",
+    "teacher": "Dr. M. Yousuf Tufail",
+    "program": "BSAF",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75812,
+    "course": "Corporate Law",
+    "teacher": "Mr. Rahat Aziz",
+    "program": "BSAF-4",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96091,
+    "course": "Behavioral Finance in Theory and Practice",
+    "teacher": "Dr. Fawad Ahmed",
+    "program": "BSAF",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75950,
+    "course": "ProbabilityTheory",
+    "teacher": "Dr. Amir Bashir",
+    "program": "BSEM - 4",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71309,
+    "course": "Business Communication (2+1 CH)",
+    "teacher": "Ms. Nadia Sayeed",
+    "program": "BBA-4",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71310,
+    "course": "Analysis of Pakistani Industries",
+    "teacher": "Mr. Masood Siddiqui",
+    "program": "BBA-4",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71311,
+    "course": "Production and Operations Managemen",
+    "teacher": "Dr. Muhammad Imran",
+    "program": "BBA-6",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75951,
+    "course": "Contemporary Issues in Global Economics",
+    "teacher": "Ms. Umema Amin Siddiqi",
+    "program": "BSECO - 8",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75958,
+    "course": "Macroeconomic Theory",
+    "teacher": "Dr. Faiz ur Rehman",
+    "program": "BSECO/EM - 4",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95985,
+    "course": "Chinese-1",
+    "teacher": "Ms. Saher Iqbal",
+    "program": "BSEM-BS-Eco NS",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 95893,
+    "course": "Introduction to Cryptography",
+    "teacher": "Ms. Tasbiha Fatima",
+    "program": "CS Elective",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96112,
+    "course": "Introduction to DevOps",
+    "teacher": "Mr. Obaid Ur Rehman",
+    "program": "CS Elective",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96165,
+    "course": "Analytical Approach to Marketing Decisions",
+    "teacher": "Mr. Fawad Mahdi",
+    "program": "MKT-E",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75814,
+    "course": "Pakistan History",
+    "teacher": "Dr. Moiz Khan",
+    "program": "BSAF",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96081,
+    "course": "Energy and Environment",
+    "teacher": "Dr. Junaid Memon",
+    "program": "BSSS-6/8 ELECTIVE",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75815,
+    "course": "Advanced Financial reporting",
+    "teacher": "Mr. Naveed Bukhari",
+    "program": "BSAF",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75982,
+    "course": "Chinese-II",
+    "teacher": "Ms. Madiha Mukhtar",
+    "program": "BSSS-4",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71196,
+    "course": "Computer Architecture and Assembly Language",
+    "teacher": "Dr. Faisal Iradat",
+    "program": "BSCS-4",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": 0,
+    "labTime": 1
+  },
+  {
+    "code": 75903,
+    "course": "Computer Architecture and Assembly Language",
+    "teacher": "Mr. Zain Uddin",
+    "program": "BSCS-4",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": 0,
+    "labTime": 2
+  },
+  {
+    "code": 75920,
+    "course": "Computer Architecture and Assembly Language",
+    "teacher": "Dr. Salman Zafar",
+    "program": "BSCS-4",
+    "lecDay": 1,
+    "lecTime": 1,
+    "labDay": 1,
+    "labTime": 2
+  },
+  {
+    "code": 95912,
+    "course": "Computer Architecture and Assembly Language",
+    "teacher": "Dr. Salman Zafar",
+    "program": "BSCS-4",
+    "lecDay": 1,
+    "lecTime": 4,
+    "labDay": 2,
+    "labTime": 4
+  },
+  {
+    "code": 96056,
+    "course": "Islamic Scholarly Tradition",
+    "teacher": "Dr. Wahab Suri",
+    "program": "BSCS",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71190,
+    "course": "Islamic Scholarly Tradition",
+    "teacher": "Dr. Moiz Hassan",
+    "program": "BSSS-4/BSEM-2(MEGA)",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71187,
+    "course": "Islamic Scholarly Tradition",
+    "teacher": "Dr. Amana Raquib",
+    "program": "BSSS-4",
+    "lecDay": 0,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75904,
+    "course": "Computer Communication & Networking",
+    "teacher": "Sir Waseem Arain",
+    "program": "BSCS-4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": 0,
+    "labTime": 4
+  },
+  {
+    "code": 75912,
+    "course": "Computer Communication & Networking",
+    "teacher": "Ms. Asma Tauqeer",
+    "program": "BSCS-4",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": 1,
+    "labTime": 1
+  },
+  {
+    "code": 75916,
+    "course": "Computer Communication & Networking",
+    "teacher": "Ms. Tasbiha Fatima",
+    "program": "BSCS-4",
+    "lecDay": 1,
+    "lecTime": 1,
+    "labDay": 1,
+    "labTime": 2
+  },
+  {
+    "code": 75913,
+    "course": "Introduction to Artificial Intelligence",
+    "teacher": "Dr. Syed Ali Raza",
+    "program": "BSCS-4",
+    "lecDay": 1,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75921,
+    "course": "Introduction to Artificial Intelligence",
+    "teacher": "Ms. Sumera",
+    "program": "BSCS-4",
+    "lecDay": 1,
+    "lecTime": 1,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 75911,
+    "course": "Introduction to Artificial Intelligence",
+    "teacher": "Dr. Syed Ali Raza",
+    "program": "BSCS-4",
+    "lecDay": 0,
+    "lecTime": 2,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71194,
+    "course": "Introduction to Artificial Intelligence",
+    "teacher": "Ms. Sumaira Saeed",
+    "program": "BSCS-4",
+    "lecDay": 0,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71207,
+    "course": "Theory of Automata",
+    "teacher": "Dr Shahid Hussain",
+    "program": "BSCS-4",
+    "lecDay": 0,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 96062,
+    "course": "Theory of Automata",
+    "teacher": "Dr Imran Rauf",
+    "program": "BSCS-4",
+    "lecDay": 2,
+    "lecTime": 4,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 71206,
+    "course": "Theory of Automata",
+    "teacher": "Dr Imran Rauf",
+    "program": "BSCS-4",
+    "lecDay": 2,
+    "lecTime": 5,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  },
+  {
+    "code": "",
+    "course": "",
+    "teacher": "",
+    "program": "",
+    "lecDay": "",
+    "lecTime": "",
+    "labDay": "",
+    "labTime": ""
+  }
+]
