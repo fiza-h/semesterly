@@ -352,7 +352,7 @@ export default function Home() {
                 <div className="py-10">
                   <SearchBar onSearch={handleSearch} />
                 </div>
-                <div className="py-0">
+                <div className="py-0" style={{ maxHeight: 'calc(100vh - 200px)', overflowY: 'auto' }}>
                   {Object.entries(groupedCourses).map(([courseTitle, courses]) => (
                     <CourseCard key={courseTitle} courseTitle={courseTitle} courses={courses} onAdd={handleAddCourse} clearCourses={clearCourses} />
                   ))}
