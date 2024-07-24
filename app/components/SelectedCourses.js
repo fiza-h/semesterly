@@ -68,6 +68,7 @@ const SelectedCourses = ({ courses, onCourseLockChange }) => {
                             <tr key={index}>
                                 <td>{index + 1}</td>
                                 <td>{course.course}</td>
+                                <td>{course.code}</td>
                                 <td>{course.teacher}</td>
                                 <td>{course.program}</td>
                                 <td>{mapDay(course.lecDay)}</td>
