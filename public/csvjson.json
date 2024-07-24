@@ -348,5 +348,25 @@
     "lecTime": 4,
     "labDay": -1,
     "labTime": -1
+  },
+  {
+    "code": 96813,
+    "course": "IST",
+    "teacher": "Dr. Amana Raquib",
+    "program": "",
+    "lecDay": 0,
+    "lecTime": 0,
+    "labDay": -1,
+    "labTime": -1
+  },
+  {
+    "code": 97348,
+    "course": "IST",
+    "teacher": "Ms. Maria Haqqani",
+    "program": "",
+    "lecDay": 0,
+    "lecTime": 3,
+    "labDay": -1,
+    "labTime": -1
   }
 ]
