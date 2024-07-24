@@ -54,6 +54,7 @@ const SelectedCourses = ({ courses, onCourseLockChange }) => {
                         <tr>
                             <th>No.</th>
                             <th>Course</th>
+                            <th>Code</th>
                             <th>Teacher</th>
                             <th>Program</th>
                             <th>Lecture Day</th>
