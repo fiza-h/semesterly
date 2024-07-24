@@ -30,17 +30,17 @@ const SelectedCourses = ({ courses, onCourseLockChange }) => {
             case 1:
                 return '10:00AM to 11:15AM';
             case 2:
-                return '10:00AM to 11:15AM';
-            case 3:
                 return '11:30AM to 12:45PM';
-            case 4:
+            case 3:
                 return '1:00PM to 2:15PM';
-            case 5:
+            case 4:
                 return '2:30PM to 3:45PM';
-            case 6:
+            case 5:
                 return '4:00PM to 5:15PM';
-            case 7:
+            case 6:
                 return '5:30PM to 6:45PM';
+            case 7:
+                return '7:00PM to 8:15PM';
             default:
                 return 'N/A';
         }
