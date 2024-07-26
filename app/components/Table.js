@@ -43,9 +43,9 @@ const Table = ({ schedule, onCheckboxListChange }) => {
                                     {schedule && schedule[index] && schedule[index][days.indexOf(day)] ? (
                                         <div className={`card ${checkedBoxes[`${index}-${day}`] ? 'bg-slate-900' : 'bg-white'} shadow-sm`}>
                                             <div className="card-body" style={{ maxHeight: "150px", maxWidth: '150px', height: '150px', width: '150px', overflow: 'hidden', padding: '5px', margin: 0 }}>
-                                                <p className="card-title mb-0" style={{ lineHeight: '1.2', fontSize: '16px', color: 'black', padding: 0 }}>{schedule[index][days.indexOf(day)].course}</p>
-                                                <p className="card-text mb-0" style={{ fontSize: '16px', color: 'black' }}>{schedule[index][days.indexOf(day)].teacher}</p>
-                                                <p className="card-text mb-0" style={{ fontSize: '16px', color: 'black' }}>{schedule[index][days.indexOf(day)].code}</p>
+                                                <p className="card-title mb-0" style={{ fontSize: '20px', color: 'black', padding: 0 }}>{schedule[index][days.indexOf(day)].course}</p>
+                                                <p className="card-text mb-0" style={{ fontSize: '18px', color: 'black', lineHeight: '1' }}>{schedule[index][days.indexOf(day)].teacher}</p>
+                                                <p className="card-text mb-0" style={{ fontSize: '20px', color: 'black' }}>{schedule[index][days.indexOf(day)].code}</p>
                                             </div>
                                         </div>
                                     ) : (
