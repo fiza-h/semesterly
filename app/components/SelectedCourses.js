@@ -56,7 +56,7 @@ const SelectedCourses = ({ courses, onCourseLockChange }) => {
                             <th>Course</th>
                             <th>Code</th>
                             <th>Teacher</th>
-                            <th>Program</th>
+                            {/* <th>Program</th> */}
                             <th>Lecture Day</th>
                             <th>Lecture Time</th>
                             <th>Lab Day</th>
@@ -71,7 +71,7 @@ const SelectedCourses = ({ courses, onCourseLockChange }) => {
                                 <td>{course.course}</td>
                                 <td>{course.code}</td>
                                 <td>{course.teacher}</td>
-                                <td>{course.program}</td>
+                                {/* <td>{course.program}</td> */}
                                 <td>{mapDay(course.lecDay)}</td>
                                 <td>{mapTime(course.lecTime)}</td>
                                 <td>{mapDay(course.labDay)}</td>

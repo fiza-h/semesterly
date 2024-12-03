@@ -1,15 +1,21 @@
 'use client'
 
-import CourseCard from "./components/CourseCard";
-import Navbar from "./components/Navbar";
-import Pagination from "./components/Pagination";
-import SearchBar from "./components/SearchBar";
-import SelectedCourses from "./components/SelectedCourses";
-import Table from "./components/Table";
+// import SearchBar from "../components/SearchBar";
 
-import React, { useState, useEffect } from 'react';
+import CourseCard from "../components/CourseCard";
+// import Navbar from "./components/Navbar";
+// import Pagination from "./components/Pagination";
+import SearchBar from "../components/SearchBar";
+// import SelectedCourses from "./components/SelectedCourses";
+// import Table from "./components/Table";
 
-export default function Home() {
+
+
+import React, { useState, useEffect, Link, router } from 'react';
+
+
+export default function Courses() {
+
   const [courses, setCourses] = useState([]);
   const [filteredCourses, setFilteredCourses] = useState([]);
   const [selectedCourses, setSelectedCourses] = useState([]); // State to store selected courses
@@ -46,12 +52,10 @@ export default function Home() {
     setClearCourses(prevState => !prevState); // Toggle clearCourses state
   };
 
-  let checkbox = false;
   const handleCheckboxList = (checkedList) => {
     // Handle the list of checked checkboxes received from the Table component
     console.log("Checked checkboxes:", checkedList);
     preferredTiming = checkedList; // Extract the time from each item
-    checkbox = true;
   };
 
   const handleAddCourse = course => {
@@ -115,37 +119,7 @@ export default function Home() {
       // });
       const schedules = generateSchedules(groupedCourses);
       console.log("Generated Schedules:", schedules);
-    }
-    if (checkbox) {
-      // Process the checked time slots and filter courses
-      const updatedSelectedCourses = selectedCourses.filter((course) => {
-        const lecDayMatch = !preferredTiming.some((slot) => {
-          const [time, day] = slot.split('-');
-          return (
-            course.lecDay === day && parseInt(course.lecTime) === parseInt(time)
-          );
-        });
-
-        const labDayMatch =
-          course.labDay === -1 ||
-          !preferredTiming.some((slot) => {
-            const [time, day] = slot.split('-');
-            return (
-              course.labDay === day &&
-              (parseInt(course.labTime) === parseInt(time) ||
-                parseInt(course.labTime) + 1 === parseInt(time))
-            );
-          });
-
-        // Retain the course only if it does not conflict with any blocked time slot
-        return lecDayMatch && labDayMatch;
-      });
-
-      setSelectedCourses(updatedSelectedCourses);
-      console.log("Filtered Selected Courses:", updatedSelectedCourses);
-    }
-
-    else {
+    } else {
       preferredClassSlot.forEach(course => {
         if (course.labDay === -1) {
           currentSchedule[course.lecTime][course.lecDay] = course;
@@ -340,78 +314,34 @@ export default function Home() {
     return copy;
   }
 
-
-  // return (
-  //   <main>
-  //     <div>
-  //       <Navbar />
-  //       <div className="flex flex-col w-full lg:flex-row">
-  //         <div className="flex flex-col items-center">
-  //           <div className="px-10">
-  //             <SearchBar onSearch={handleSearch} />
-  //           </div>
-  //           <div className="py-0">
-  //             {Object.entries(groupedCourses).map(([courseTitle, courses]) => (
-  //               <CourseCard key={courseTitle} courseTitle={courseTitle} courses={courses} onAdd={handleAddCourse} />
-  //             ))}
-  //           </div>
-  //         </div>
-  //         <div className="divider lg:divider-horizontal"></div>
-  //         <div className="flex flex-col">
-  //           <Pagination schedules={schedules} currentPage={currentPage} onPageChange={handlePageChange} />
-  //           <Table schedule={schedules[currentPage]} />
-  //           <div className="divider"></div>
-  //           <div className="flex flex-row">
-  //             <h1>Selected Courses</h1>
-  //             <button className="btn btn-primary" onClick={handleGenerateSchedules}>Generate Schedules</button>
-  //           </div>
-  //           <SelectedCourses courses={selectedCourses} /> {/* Pass selected courses to SelectedCourses component */}
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </main>
-  // );
+  // const handleNext = () => {
+  //   localStorage.setItem("selectedCourses", JSON.stringify(selectedCourses));
+  //   router.push("/app/timetable");
+  // };
+  
 
   return (
-    <main>
-      <div>
-        <Navbar />
-        <div className="grid grid-cols-12">
-          <div className="flex flex-col lg:flex-row">
-            <div>
-              {/* Adjusting width of the first div */}
-              <div className="col-span-2"> {/* Adjust col-span as needed */}
-                <div className="py-10">
-                  <SearchBar onSearch={handleSearch} />
-                </div>
-                <div className="py-0" style={{ maxHeight: 'calc(100vh - 200px)', overflowY: 'auto' }}>
-                  {Object.entries(groupedCourses).map(([courseTitle, courses]) => (
-                    <CourseCard key={courseTitle} courseTitle={courseTitle} courses={courses} onAdd={handleAddCourse} clearCourses={clearCourses} />
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div className="divider lg:divider-horizontal"></div>
-            <div className="col-span-2">
-              <div className="flex flex-row items-center justify-between">
-                <h1>Selected Courses</h1>
-                <div>
-                  <button className="btn btn-primary mr-2" onClick={handleClearCourses}>Clear Courses</button>
-                  <button className="btn btn-primary" onClick={handleGenerateSchedules}>Generate Schedules</button>
-                </div>
-              </div>
-              <div className="px-0">
-                <SelectedCourses courses={selectedCourses} onCourseLockChange={handleCourseLockChange} />
-              </div>
-            </div>
-            <div className="divider lg:divider-horizontal"></div>
-            <div className="col-span-8">
-              <Pagination schedules={schedules} currentPage={currentPage} onPageChange={handlePageChange} />
-              <Table schedule={schedules[currentPage]} onCheckboxListChange={handleCheckboxList} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </main >
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px' }}>
+  {/* Adjust col-span as needed */}
+  <h1 style={{ fontWeight: 'bold', fontSize: '2rem', textAlign: 'center' }}>Select your Courses</h1>
+  <div style={{ width: '50%', minWidth: '300px', paddingTop: '50px',}}> {/* Adjust width and minWidth as needed */}
+    <SearchBar onSearch={handleSearch} />
+  </div>
+  <div style={{ maxHeight: '200px', overflowY: 'auto', marginTop: '20px', width: '50%' }}>
+    {Object.entries(groupedCourses).map(([courseTitle, courses]) => (
+      <CourseCard
+        key={courseTitle}
+        courseTitle={courseTitle}
+        courses={courses}
+        onAdd={handleAddCourse}
+        clearCourses={clearCourses}
+      />
+    ))}
+  </div>
+  <div style={{ paddingTop: '50px',}}>
+  <button href= "/timetable" className="btn btn-primary">Next</button>
+  </div>
+</div>
+
   );
 }

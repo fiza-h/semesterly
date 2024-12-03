@@ -17,7 +17,7 @@ const Table = ({ schedule, onCheckboxListChange }) => {
 
     const handleCheckboxChange = (index, day) => {
         const boxKey = `${index}-${day}`;
-        setCheckedBoxes(prevCheckedBoxes => {
+        setCheckedBoxes((prevCheckedBoxes) => {
             const updatedCheckedBoxes = { ...prevCheckedBoxes };
             updatedCheckedBoxes[boxKey] = !updatedCheckedBoxes[boxKey];
             onCheckboxListChange(Object.keys(updatedCheckedBoxes).filter(key => updatedCheckedBoxes[key]));
@@ -31,7 +31,9 @@ const Table = ({ schedule, onCheckboxListChange }) => {
                 <thead>
                     <tr>
                         <th style={{ fontSize: '20px', fontWeight: 'bold' }}>Time</th>
-                        {days.map(day => <td key={day} style={{ fontSize: '22px', fontWeight: 'bold', textAlign: 'center' }}>{day}</td>)}
+                        {days.map(day => (
+                            <td key={day} style={{ fontSize: '22px', fontWeight: 'bold', textAlign: 'center' }}>{day}</td>
+                        ))}
                     </tr>
                 </thead>
                 <tbody>
@@ -39,9 +41,21 @@ const Table = ({ schedule, onCheckboxListChange }) => {
                         <tr key={index}>
                             <th style={{ fontSize: '22px', fontWeight: 'bold', lineHeight: '22px', textAlign: 'center' }}>{time}</th>
                             {days.map(day => (
-                                <td key={day} className="p-1" style={{ fontSize: '14px' }}>
+                                <td key={day} className="p-1" style={{ fontSize: '14px', position: 'relative' }}>
                                     {schedule && schedule[index] && schedule[index][days.indexOf(day)] ? (
-                                        <div className={`card ${checkedBoxes[`${index}-${day}`] ? 'bg-slate-900' : 'bg-white'} shadow-sm`}>
+                                        <div className={`card ${checkedBoxes[`${index}-${day}`] ? 'bg-slate-900' : 'bg-white'} shadow-sm`} style={{ position: 'relative' }}>
+                                            <input
+                                                type="checkbox"
+                                                className="form-check-input"
+                                                checked={checkedBoxes[`${index}-${day}`] || false}
+                                                onChange={() => handleCheckboxChange(index, day)}
+                                                style={{
+                                                    position: 'absolute',
+                                                    top: '5px',
+                                                    right: '5px',
+                                                    zIndex: 1,
+                                                }}
+                                            />
                                             <div className="card-body" style={{ maxHeight: "150px", maxWidth: '150px', height: '150px', width: '150px', overflow: 'hidden', padding: '5px', margin: 0 }}>
                                                 <p className="card-title mb-0" style={{ fontSize: '20px', color: 'black', padding: 0 }}>{schedule[index][days.indexOf(day)].course}</p>
                                                 <p className="card-text mb-0" style={{ fontSize: '18px', color: 'black', lineHeight: '1' }}>{schedule[index][days.indexOf(day)].teacher}</p>
@@ -49,7 +63,19 @@ const Table = ({ schedule, onCheckboxListChange }) => {
                                             </div>
                                         </div>
                                     ) : (
-                                        <div className={`card ${checkedBoxes[`${index}-${day}`] ? 'bg-slate-900' : 'bg-white'} shadow-sm`}>
+                                        <div className={`card ${checkedBoxes[`${index}-${day}`] ? 'bg-slate-900' : 'bg-white'} shadow-sm`} style={{ position: 'relative' }}>
+                                            <input
+                                                type="checkbox"
+                                                className="form-check-input"
+                                                checked={checkedBoxes[`${index}-${day}`] || false}
+                                                onChange={() => handleCheckboxChange(index, day)}
+                                                style={{
+                                                    position: 'absolute',
+                                                    top: '5px',
+                                                    right: '5px',
+                                                    zIndex: 1,
+                                                }}
+                                            />
                                             <div className="card-body" style={{ maxHeight: "150px", maxWidth: '150px', height: '150px', width: '150px', overflow: 'hidden', padding: '2px' }}>
                                                 {/* Render empty card */}
                                             </div>
