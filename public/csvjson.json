@@ -71,7 +71,7 @@
   },
   {
       "code": 0,
-      "course": "ccn",
+      "course": "ccn ",
       "teacher": "tasbiha",
       "program": "cs",
       "lecDay": 1,
@@ -196,6 +196,36 @@
       "program": "cs",
       "lecDay": 2,
       "lecTime": 0,
+      "labDay": -1,
+      "labTime": -1
+  },
+  {
+      "code": 0,
+      "course": "ita",
+      "teacher": "solat",
+      "program": "cs",
+      "lecDay": 1,
+      "lecTime": 1,
+      "labDay": -1,
+      "labTime": -1
+  },
+  {
+      "code": 0,
+      "course": "ita",
+      "teacher": "solat",
+      "program": "cs",
+      "lecDay": 1,
+      "lecTime": 2,
+      "labDay": -1,
+      "labTime": -1
+  },
+  {
+      "code": 0,
+      "course": "ita",
+      "teacher": "sajjad",
+      "program": "cs",
+      "lecDay": 0,
+      "lecTime": 2,
       "labDay": -1,
       "labTime": -1
   }
