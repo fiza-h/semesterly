@@ -1,0 +1,232 @@
+[
+  {
+    "code": 96918,
+    "course": "Operating Systems",
+    "teacher": "Tasbiha",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 1,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 96951,
+    "course": "Operating Systems",
+    "teacher": "Tasbiha",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 2,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97244,
+    "course": "Operating Systems",
+    "teacher": "Waseem Arain",
+    "program": "BSCS",
+    "lecday": 1,
+    "lectime": 2,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97301,
+    "course": "Operating Systems",
+    "teacher": "Salman Zafar",
+    "program": "BSCS",
+    "lecday": 1,
+    "lectime": 4,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 0,
+    "course": "Islamic Scholarly Tradition",
+    "teacher": "Amana Raquib",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 0,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 0,
+    "course": "Islamic Scholarly Tradition",
+    "teacher": "TBA",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 3,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 0,
+    "course": "Intro to Machine Learning",
+    "teacher": "Sajjad Haider",
+    "program": "BSCS",
+    "lecday": 1,
+    "lectime": 0,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 0,
+    "course": "Intro to Machine Learning",
+    "teacher": "Solat Jabeen",
+    "program": "BSCS",
+    "lecday": 1,
+    "lectime": 1,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 0,
+    "course": "Intro to Machine Learning",
+    "teacher": "Sumaira Saeed",
+    "program": "BSCS",
+    "lecday": 1,
+    "lectime": 1,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 0,
+    "course": "Intro to Machine Learning",
+    "teacher": "Solat Jabeen",
+    "program": "BSCS",
+    "lecday": 1,
+    "lectime": 2,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97137,
+    "course": "Software Engineering",
+    "teacher": "TBA",
+    "program": "BSCS",
+    "lecday": 1,
+    "lectime": 0,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97288,
+    "course": "Software Engineering",
+    "teacher": "TBA",
+    "program": "BSCS",
+    "lecday": 1,
+    "lectime": 3,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 0,
+    "course": "Software Engineering",
+    "teacher": "TBA",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 5,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97080,
+    "course": "Business Communications",
+    "teacher": "Talat Davis",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 4,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97088,
+    "course": "Business Communications",
+    "teacher": "Talat Davis",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 5,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97292,
+    "course": "Business Communications",
+    "teacher": "Nadia Sayeed",
+    "program": "BSAF",
+    "lecday": 1,
+    "lectime": 0,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97293,
+    "course": "Business Communications",
+    "teacher": "Nadia Sayeed",
+    "program": "BSAF",
+    "lecday": 1,
+    "lectime": 1,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97295,
+    "course": "Business Communications",
+    "teacher": "Sarah Mazhar",
+    "program": "BSAF",
+    "lecday": 1,
+    "lectime": 1,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 97294,
+    "course": "Business Communications",
+    "teacher": "Sarah Mazhar",
+    "program": "BSAF",
+    "lecday": 1,
+    "lectime": 2,
+    "labday": -1,
+    "labtime": -1
+  },
+  {
+    "code": 96917,
+    "course": "Database Systems",
+    "teacher": "Abeera Tariq",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 1,
+    "labday": 1,
+    "labtime": 0
+  },
+  {
+    "code": 0,
+    "course": "Database Systems",
+    "teacher": "Abeera Tariq",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 3,
+    "labday": 1,
+    "labtime": 2
+  },
+  {
+    "code": 96919,
+    "course": "Database Systems",
+    "teacher": "Imran Khan",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 1,
+    "labday": 1,
+    "labtime": 2
+  },
+  {
+    "code": 95957,
+    "course": "Database Systems",
+    "teacher": "Imran Khan",
+    "program": "BSCS",
+    "lecday": 0,
+    "lectime": 2,
+    "labday": 1,
+    "labtime": 2
+  }
+]
