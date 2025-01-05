@@ -235,7 +235,7 @@
         "teacher": "abeera",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 2,
+        "lecTime": 1,
         "labDay": -1,
         "labTime": -1
     },
@@ -245,7 +245,7 @@
         "teacher": "abeera",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 3,
+        "lecTime": 2,
         "labDay": -1,
         "labTime": -1
     },
@@ -255,7 +255,7 @@
         "teacher": "tariq mehmood",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 3,
+        "lecTime": 2,
         "labDay": -1,
         "labTime": -1
     },
@@ -265,7 +265,7 @@
         "teacher": "rao nouman",
         "program": "cs",
         "lecDay": 2,
-        "lecTime": 5,
+        "lecTime": 4,
         "labDay": -1,
         "labTime": -1
     },
@@ -275,7 +275,7 @@
         "teacher": "abdul wahab",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 5,
+        "lecTime": 4,
         "labDay": -1,
         "labTime": -1
     },
@@ -285,7 +285,7 @@
         "teacher": "jawwad farid",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 6,
+        "lecTime": 5,
         "labDay": -1,
         "labTime": -1
     },
@@ -295,9 +295,9 @@
         "teacher": "sir salman",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 2,
+        "lecTime": 1,
         "labDay": 0,
-        "labTime": 4
+        "labTime": 3
     },
     {
         "code": 98496,
@@ -305,9 +305,9 @@
         "teacher": "sir salman",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 2,
+        "lecTime": 1,
         "labDay": 1,
-        "labTime": 4
+        "labTime": 3
     },
     {
         "code": 98503,
@@ -315,7 +315,7 @@
         "teacher": "sir salman",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 3,
+        "lecTime": 2,
         "labDay": 1,
         "labTime": 0
     },
@@ -325,9 +325,9 @@
         "teacher": "sir salman",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 3,
+        "lecTime": 1,
         "labDay": 0,
-        "labTime": 4
+        "labTime": 2
     },
     {
         "code": 98473,
@@ -335,7 +335,7 @@
         "teacher": "sir salman",
         "program": "cs",
         "lecDay": 1,
-        "lecTime": 5,
+        "lecTime": 4,
         "labDay": 2,
         "labTime": 0
     },
