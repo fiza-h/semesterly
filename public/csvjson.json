@@ -1,232 +1,362 @@
 [
-  {
-      "code": 98469,
-      "course": "pdc",
-      "teacher": "zain",
-      "program": "cs",
-      "lecDay": 1,
-      "lecTime": 1,
-      "labDay": 1,
-      "labTime": 2
-  },
-  {
-      "code": 0,
-      "course": "pdc",
-      "teacher": "adil saleem",
-      "program": "cs",
-      "lecDay": 1,
-      "lecTime": 3,
-      "labDay": 1,
-      "labTime": 4
-  },
-  {
-      "code": 0,
-      "course": "pdc",
-      "teacher": "m saeed",
-      "program": "cs",
-      "lecDay": 1,
-      "lecTime": 4,
-      "labDay": 1,
-      "labTime": 5
-  },
-  {
-      "code": 98399,
-      "course": "daa",
-      "teacher": "jibran",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 1,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "daa",
-      "teacher": "jibran",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 2,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "cp",
-      "teacher": "imran rauf",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 0,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "ccn",
-      "teacher": "tasbiha",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 1,
-      "labDay": 0,
-      "labTime": 2
-  },
-  {
-      "code": 0,
-      "course": "ccn",
-      "teacher": "tasbiha",
-      "program": "cs",
-      "lecDay": 1,
-      "lecTime": 1,
-      "labDay": 1,
-      "labTime": 2
-  },
-  {
-      "code": 0,
-      "course": "web app",
-      "teacher": "tba",
-      "program": "cs",
-      "lecDay": 2,
-      "lecTime": 1,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "web app",
-      "teacher": "tba",
-      "program": "cs",
-      "lecDay": 2,
-      "lecTime": 2,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "web app",
-      "teacher": "tba",
-      "program": "cs",
-      "lecDay": 2,
-      "lecTime": 4,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "software architecture",
-      "teacher": "aneeq hashmi",
-      "program": "cs",
-      "lecDay": 2,
-      "lecTime": 0,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "software architecture",
-      "teacher": "tba",
-      "program": "cs",
-      "lecDay": 2,
-      "lecTime": 1,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "quantum mech",
-      "teacher": "azeem hasan",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 3,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "security ethics",
-      "teacher": "imran khan",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 0,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "security ethics",
-      "teacher": "imran khan",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 1,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "security ethics",
-      "teacher": "irfan nabi",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 1,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "security ethics",
-      "teacher": "irfan nabi",
-      "program": "cs",
-      "lecDay": 9,
-      "lecTime": 2,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "nn and dl",
-      "teacher": "atif tahir",
-      "program": "cs",
-      "lecDay": 1,
-      "lecTime": 4,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "intro to cv",
-      "teacher": "sualeh ali",
-      "program": "cs",
-      "lecDay": 2,
-      "lecTime": 0,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "ita",
-      "teacher": "solat",
-      "program": "cs",
-      "lecDay": 1,
-      "lecTime": 1,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "ita",
-      "teacher": "solat",
-      "program": "cs",
-      "lecDay": 1,
-      "lecTime": 2,
-      "labDay": -1,
-      "labTime": -1
-  },
-  {
-      "code": 0,
-      "course": "ita",
-      "teacher": "sajjad",
-      "program": "cs",
-      "lecDay": 0,
-      "lecTime": 2,
-      "labDay": -1,
-      "labTime": -1
-  }
+    {
+        "code": 98469,
+        "course": "pdc",
+        "teacher": "zain",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 1,
+        "labDay": 1,
+        "labTime": 2
+    },
+    {
+        "code": 0,
+        "course": "pdc",
+        "teacher": "adil saleem",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 3,
+        "labDay": 1,
+        "labTime": 4
+    },
+    {
+        "code": 0,
+        "course": "pdc",
+        "teacher": "m saeed",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 4,
+        "labDay": 1,
+        "labTime": 5
+    },
+    {
+        "code": 98399,
+        "course": "daa",
+        "teacher": "jibran",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 1,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "daa",
+        "teacher": "jibran",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 2,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "cp",
+        "teacher": "imran rauf",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 0,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "ccn",
+        "teacher": "tasbiha",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 1,
+        "labDay": 0,
+        "labTime": 2
+    },
+    {
+        "code": 0,
+        "course": "ccn",
+        "teacher": "tasbiha",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 1,
+        "labDay": 1,
+        "labTime": 2
+    },
+    {
+        "code": 0,
+        "course": "web app",
+        "teacher": "tba",
+        "program": "cs",
+        "lecDay": 2,
+        "lecTime": 1,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "web app",
+        "teacher": "tba",
+        "program": "cs",
+        "lecDay": 2,
+        "lecTime": 2,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "web app",
+        "teacher": "tba",
+        "program": "cs",
+        "lecDay": 2,
+        "lecTime": 4,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "software architecture",
+        "teacher": "aneeq hashmi",
+        "program": "cs",
+        "lecDay": 2,
+        "lecTime": 0,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "software architecture",
+        "teacher": "tba",
+        "program": "cs",
+        "lecDay": 2,
+        "lecTime": 1,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "quantum mech",
+        "teacher": "azeem hasan",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 3,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "security ethics",
+        "teacher": "imran khan",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 0,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "security ethics",
+        "teacher": "imran khan",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 1,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "security ethics",
+        "teacher": "irfan nabi",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 1,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "security ethics",
+        "teacher": "irfan nabi",
+        "program": "cs",
+        "lecDay": 9,
+        "lecTime": 2,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "nn and dl",
+        "teacher": "atif tahir",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 4,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "intro to cv",
+        "teacher": "sualeh ali",
+        "program": "cs",
+        "lecDay": 2,
+        "lecTime": 0,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "ita",
+        "teacher": "solat",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 1,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "ita",
+        "teacher": "solat",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 2,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "ita",
+        "teacher": "sajjad",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 2,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "bi",
+        "teacher": "abeera",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 2,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "bi",
+        "teacher": "abeera",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 3,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "data warehousing",
+        "teacher": "tariq mehmood",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 3,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "mobile app dev",
+        "teacher": "rao nouman",
+        "program": "cs",
+        "lecDay": 2,
+        "lecTime": 5,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "intro to blockchain",
+        "teacher": "abdul wahab",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 5,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 0,
+        "course": "tech prod dev",
+        "teacher": "jawwad farid",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 6,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 98472,
+        "course": "caal",
+        "teacher": "sir salman",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 2,
+        "labDay": 0,
+        "labTime": 4
+    },
+    {
+        "code": 98496,
+        "course": "caal",
+        "teacher": "sir salman",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 2,
+        "labDay": 1,
+        "labTime": 4
+    },
+    {
+        "code": 98503,
+        "course": "caal",
+        "teacher": "sir salman",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 3,
+        "labDay": 1,
+        "labTime": 0
+    },
+    {
+        "code": 98504,
+        "course": "caal",
+        "teacher": "sir salman",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 3,
+        "labDay": 0,
+        "labTime": 4
+    },
+    {
+        "code": 98473,
+        "course": "caal",
+        "teacher": "sir salman",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 5,
+        "labDay": 2,
+        "labTime": 0
+    },
+    {
+        "code": 98219,
+        "course": "prob theory",
+        "teacher": "amir bashir",
+        "program": "cs",
+        "lecDay": 0,
+        "lecTime": 0,
+        "labDay": -1,
+        "labTime": -1
+    },
+    {
+        "code": 98166,
+        "course": "prob theory",
+        "teacher": "amir bashir",
+        "program": "cs",
+        "lecDay": 1,
+        "lecTime": 0,
+        "labDay": -1,
+        "labTime": -1
+    }
 ]
